@@ -19,77 +19,26 @@ To use the CBC_Encryption library, you need to compile it from source. Ensure yo
 
 ### Compile the library:
 
-gcc -o cbc_encrypt main.c ../src/cbc.c ../src/fileio.c ../src/linkedlist.c -lcrypto
+- gcc -o cbc_encrypt main.c ../src/cbc.c ../src/fileio.c ../src/linkedlist.c -lcrypto
 
 ## Usage
 Below is an example of how to use the CBC_Encryption library for encryption and decryption.
 
 - Importing the Necessary Headers
-
-#include "../include/cbc.h"
-#include "../include/fileio.h"
-#include "../include/linkedlist.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-- Main Function Example
-
-int main() {
-  // Read data from a file into a linked list
-  struct Node *data = readFile("project/Makefiles/input.txt");
-  printf("Original Data: ");
-  displayList(data);
-
-  // Encrypt the linked list using CBC encryption
-  struct Node *iv = createNode('0');
-  struct Node *current = data;
-  while (current != NULL) {
-    encryptBlock(&current, iv);
-    current = current->next;
-  }
-  printf("Encrypted Data: ");
-  displayList(data);
-
-  // Write the encrypted data to a file
-  writeFile("project/Makefiles/encrypted.txt", data);
-
-  // Free the memory
-  while (data != NULL) {
-    struct Node *temp = data;
-    data = data->next;
-    free(temp);
-  }
-
-  free(iv);
-
-  return 0;
-}
-
 - Functions
 - readFile
-
-struct Node* readFile(const char* filename);
 Reads data from a file and stores it in a linked list.
 
 - writeFile
-
-void writeFile(const char* filename, struct Node* head);
 Writes the linked list data to a file.
 
 - displayList
-
-void displayList(struct Node* head);
 Displays the data in the linked list.
 
 - createNode
-
-struct Node* createNode(char data);
 Creates a new node with the given data.
 
 - encryptBlock
-
-void encryptBlock(struct Node** current, struct Node* iv);
 Encrypts a block of data using the CBC mode.
 
 ## License
