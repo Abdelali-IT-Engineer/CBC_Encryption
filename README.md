@@ -1,4 +1,4 @@
-# CBC_Encryption
+# CBC
 CBC_Encryption is a C library that provides functionalities to encrypt and decrypt data using the Cipher Block Chaining (CBC) mode of operation. This library is designed for educational purposes and provides a straightforward interface for encrypting and decrypting text using symmetric key encryption.
 
 ## Features
