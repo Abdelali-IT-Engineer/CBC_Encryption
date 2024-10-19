@@ -51,4 +51,4 @@ This library uses the OpenSSL library for cryptographic operations. For more inf
 If you would like to contribute to this project, please fork the repository and submit a pull request.
 
 ## Contact
-For any questions or feedback, please contact your-email@example.com.
+For any questions or feedback, please contact me.
