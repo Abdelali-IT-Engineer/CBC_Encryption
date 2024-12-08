@@ -1,5 +1,6 @@
 # CBC
-CBC_Encryption is a C library that provides functionalities to encrypt and decrypt data using the Cipher Block Chaining (CBC) mode of operation. This library is designed for educational purposes and provides a straightforward interface for encrypting and decrypting text using symmetric key encryption.
+CBC_Encryption is a C library that provides functionalities to encrypt and decrypt data using the Cipher Block Chaining (CBC) mode of operation. 
+- This library is designed for educational purposes and provides a straightforward interface for encrypting and decrypting text using symmetric key encryption.
 
 ## Features
 - Encrypt data using the AES algorithm in CBC mode.
@@ -9,7 +10,8 @@ CBC_Encryption is a C library that provides functionalities to encrypt and decry
 - Read data from and write data to files.
 
 ## Installation
-To use the CBC_Encryption library, you need to compile it from source. Ensure you have OpenSSL installed on your system as this library depends on OpenSSL for cryptographic operations.
+- To use the CBC_Encryption library, you need to compile it from source.
+- Ensure you have OpenSSL installed on your system as this library depends on OpenSSL for cryptographic operations.
 
 ### Compiling the Library
 - Clone the repository:
