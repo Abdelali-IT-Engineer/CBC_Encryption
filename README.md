@@ -14,7 +14,7 @@ To use the CBC_Encryption library, you need to compile it from source. Ensure yo
 ### Compiling the Library
 - Clone the repository:
 
-- git clone https://github.com/yourusername/CBC_Encryption.git
+- git clone [https://github.com/yourusername/CBC_Encryption.git](https://github.com/Abdelali-IT-Engineer/CBC_Encryption)
 - cd CBC_Encryption
 
 ### Compile the library:
@@ -42,10 +42,11 @@ Creates a new node with the given data.
 Encrypts a block of data using the CBC mode.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 ## Acknowledgments
-This library uses the OpenSSL library for cryptographic operations. For more information about OpenSSL, visit https://www.openssl.org.
+- This library uses the OpenSSL library for cryptographic operations. 
+- For more information about OpenSSL, visit https://www.openssl.org.
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request.
