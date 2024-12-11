@@ -16,7 +16,7 @@ CBC_Encryption is a C library that provides functionalities to encrypt and decry
 ### Compiling the Library
 - Clone the repository:
 
-- git clone [https://github.com/yourusername/CBC_Encryption.git](https://github.com/Abdelali-IT-Engineer/CBC_Encryption)
+- git clone [https://github.com/Abdelali-IT-Engineer/CBC_Encryption.git]
 - cd CBC_Encryption
 
 ### Compile the library:
