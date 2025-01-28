@@ -19,4 +19,4 @@ void deleteNode(struct Node **head, char data);
 // Signature de la fonction pour afficher les données de la liste
 void displayList(struct Node *head);
 
-#endif // LINKEDLIST_H
+#endif
