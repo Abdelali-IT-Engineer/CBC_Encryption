@@ -14,4 +14,4 @@ void encryptBlock(struct Node **block, struct Node *iv);
 // Fonction pour déchiffrer un bloc de données en utilisant le mode CBC
 void decryptBlock(struct Node **block, struct Node *iv);
 
-#endif // CBC_H
+#endif 
